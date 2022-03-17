@@ -4,7 +4,7 @@ WORKDIR /app
 COPY cmd cmd
 RUN go build cmd/hello/hello.go
 
-FROM alpine:latest
+FROM alpine:3.15
 
 WORKDIR /app
 COPY --from=build /app/hello /app/hello
