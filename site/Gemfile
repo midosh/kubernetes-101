@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.5"
-gem "jekyll-theme-architect", "~> 0.1"
+gem "jekyll", "~> 3.9", ">= 3.9.1"
+gem "jekyll-theme-architect", "~> 0.2", ">= 0.2.0"
 gem "kramdown-parser-gfm"
 gem 'nokogiri', '~> 1.10'
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-feed", "~> 0.16", ">= 0.16.0"
   gem 'jekyll-paginate', '~> 1.1'
 end
